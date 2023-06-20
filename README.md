@@ -1,18 +1,18 @@
 
 <<<<<<< HEAD
 =======
-项目下载和运行
+项目下载和运行(node 14.0.0 安装quasar-cli)
 ----
 
 - 拉取项目代码
 ```bash
-git clone https://github.com/pink-pig-pig/common-qa-front.git
+git clone https://github.com/pink-pig-pig/Test-Front.git
 cd kuaishou-ll-front
 ```
 
 - 安装依赖
 ```
-yarn install
+npm install 
 ```
 
 - 开发模式运行
