@@ -740,7 +740,7 @@
                     @click="refresh"
                   ></q-icon>
                   <q-icon
-                    v-if="tab.to !== '/dashboard/analysis'"
+                    v-if="tab.to !== '/form/basic-form'"
                     size="18px"
                     name="close"
                     @click.stop="removeTab(index)"

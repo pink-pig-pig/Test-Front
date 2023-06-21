@@ -182,7 +182,7 @@ const routes = [
     children: [
       {
         path: '',
-        component: () => import('pages/dashboard/Analysis.vue')
+        component: () => import('pages/form/BasicForm.vue')
       }
     ]
   },

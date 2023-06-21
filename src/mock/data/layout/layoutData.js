@@ -1,24 +1,24 @@
 import { deepCopy } from 'components/dynamicform/utils/utils'
 
 const routeDatas = [
-  {
-    name: '监控大盘',
-    icon: 'dashboard',
-    group: '/dashboard',
-    groupName: 'first',
-    children: [
-      {
-        name: '流量分析',
-        group: '/dashboard',
-        to: '/dashboard/analysis'
-      },
-      {
-        name: '流量监控',
-        group: '/dashboard',
-        to: '/dashboard/monitor'
-      }
-    ]
-  },
+  // {
+  //   name: '监控大盘',
+  //   icon: 'dashboard',
+  //   group: '/dashboard',
+  //   groupName: 'first',
+  //   children: [
+  //     {
+  //       name: '流量分析',
+  //       group: '/dashboard',
+  //       to: '/dashboard/analysis'
+  //     },
+  //     {
+  //       name: '流量监控',
+  //       group: '/dashboard',
+  //       to: '/dashboard/monitor'
+  //     }
+  //   ]
+  // },
   {
     name: '表单DEMO',
     icon: 'edit_road',
@@ -70,7 +70,7 @@ const routeDatas = [
         to: '/list/table-list'
       }
     ]
-  },
+  }
   // {
   //   name: '结果页',
   //   icon: 'check_circle_outline',
@@ -112,24 +112,24 @@ const routeDatas = [
   //     }
   //   ]
   // },
-  {
-    name: '拓展项',
-    icon: 'text_fields',
-    group: '/expend',
-    groupName: 'first',
-    children: [
-      {
-        name: '流程图',
-        group: '/expend',
-        to: '/expend/flow-chart'
-      },
-      {
-        name: '图标集合',
-        group: '/expend',
-        to: '/expend/icon-view'
-      }
-    ]
-  }
+  // {
+  //   name: '拓展项',
+  //   icon: 'text_fields',
+  //   group: '/expend',
+  //   groupName: 'first',
+  //   children: [
+  //     {
+  //       name: '流程图',
+  //       group: '/expend',
+  //       to: '/expend/flow-chart'
+  //     },
+  //     {
+  //       name: '图标集合',
+  //       group: '/expend',
+  //       to: '/expend/icon-view'
+  //     }
+  //   ]
+  // }
 ]
 
 function queryList(routeDatas, tabs) {
@@ -419,7 +419,7 @@ function selectTabByTo(to) {
 
 function addTab(to) {
   if (!to || to === '/') {
-    to = '/dashboard/analysis'
+    to = '/form/basic-form'
   }
 
   console.log(to + '0000000000')

@@ -122,7 +122,7 @@ export default {
     },
     buildActiveItem(path) {
       if (!path || path === '/') {
-        path = '/dashboard/analysis'
+        path = '/form/BasicForm'
       }
       const group = path.substr(0, path.lastIndexOf('/'))
       return { to: path, group: group }
